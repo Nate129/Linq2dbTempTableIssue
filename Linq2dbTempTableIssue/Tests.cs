@@ -105,7 +105,7 @@ namespace Linq2dbTempTableIssue
 
             var personCopy = new Person
             {
-                Id = person.Id,
+                Id = person2.Id,
                 Version = BitConverter.GetBytes(1),
                 Name = "Jane Doe"
             };
